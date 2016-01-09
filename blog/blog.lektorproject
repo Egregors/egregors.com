@@ -1,0 +1,10 @@
+[project]
+name = blog
+
+[packages]
+lektor-s3 = 0.2.2
+
+[servers.s3]
+name = S3
+enabled = yes
+target = s3://egregors.com
